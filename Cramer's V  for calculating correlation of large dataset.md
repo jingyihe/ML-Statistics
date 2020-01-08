@@ -2,11 +2,13 @@ Cramer's V  for calculating correlation of large dataset:
 
 The smaller means week relationship.
 Reference : http://www.utstat.toronto.edu/~brunner/oldclass/378f16/readings/CohenPower.pdf
+
 df=5   (small=.05,     medium=.13,   large=.22)
+
 https://www.researchgate.net/post/How_can_I_intepret_the_effect_sizes_of_Cramers_V_when_DF_3
 
 
-
+```
 import numpy as np
 import scipy.stats as ss
 def cramers_corrected_stat(confusion_matrix):
@@ -22,3 +24,4 @@ def cramers_corrected_stat(confusion_matrix):
     rcorr = r - ((r-1)**2)/(n-1)
     kcorr = k - ((k-1)**2)/(n-1)
     return np.sqrt(phi2corr / min( (kcorr-1), (rcorr-1)))
+```
