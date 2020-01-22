@@ -14,23 +14,33 @@ Pipeline: data —> clean data —> feature engineer —> modeling —> metrics 
 
 
 
-feature engineering :
+ML:
 
-	1.  dataset
- 	2.  feature extraction
- 	3.  clean dataset/missing
- 	4.  dimension reduction
-
-1. clean data, missing value, Feature extraction, 
-
-
-
-
-
-
+1. dataset
+2. training/test dataset
+3. feature extraction: standardization
+4. clean dataset/missing
+5. dimension reduction
+6. clean data, missing value, Feature extraction, 
+7. algorithm
+8. metrics
+9. select model and optimization
+10. 
 
 
 
-feature engineering; classification; regression,clustering
+
+
+KNN: advantages
+
+Classification algorithm: sklearn transformer and  estimator; KNN; 
+
+
+
+
+
+
+
+ classification; regression,clustering
 
 DL: TensorFlow; RNN,
